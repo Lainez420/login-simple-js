@@ -1,0 +1,143 @@
+body{
+    background: rgb(53,232,80);
+    background: linear-gradient(0deg, rgba(53,232,80,1) 7%, rgba(115,193,113,1) 35%, rgba(182,139,180,1) 55%, rgba(196,105,191,1) 83%);
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.login{
+    
+    display: flex;
+    align-items: center;/*de forma vertical*/
+    justify-content: center;/*alinear de manera horizontal*/
+    flex-direction: column;/*arriba y abajo*/
+    padding: 0px 30px; /*arriba y abajo*/
+    min-height: calc(100vp -200px);
+}
+
+.login-container{
+    background-color: rgb(255, 255, 255,0.3);/*pone medio transparente el color de form*/
+    border: 2px solid #fff;
+    border-radius: 40px;
+    color: white;
+    padding: 60px 68px 40px;
+    min-height: 700px;
+    width: 300px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.login-container-form{
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+}
+
+
+
+.login-container-remember label{
+    font-size: 25px;
+}
+
+.login-container-remember{
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.active:hover{
+    text-decoration: underline;
+}
+
+.login-container-remember a {
+    text-decoration: none;
+    color: rgb(207, 36, 199);
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+
+.login-container-remember label {
+    font-size: 14px;
+  }
+  
+  
+
+.input{
+    background-color: transparent;
+    border-left: 0px;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 0px 20px;
+    height: 50px;
+}
+
+.button{
+    background-color: transparent;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    height: 30px;
+    border: none;
+    font-size: 17px;
+}
+
+.login-container-social {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+.login-container-social a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+  }
+
+  .login-container-social h1 {
+    display: flex;
+    align-items: center;
+  }
+
+.imag {
+    display: flex;
+    justify-content: center;
+    
+  }
+
+.imag img{
+    width: 6vh;
+    height: 6vh;
+  }
+
+.login-container-register {
+    margin-top: -40px;
+    font-size: 15px;
+  }
+
+  .login-container-register a {
+    text-decoration: none;
+    color: #cc15b4;
+    font-weight: 600;
+    font-size: 15px;
+  }
+
+  .footer {
+    margin: 3.24vh;
+    margin-left: 9.72vh;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 0px 10px;
+    font-weight: 700;
+  }
